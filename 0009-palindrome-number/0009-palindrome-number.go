@@ -4,7 +4,7 @@ func isPalindrome(x int) bool {
     var l int = 0
     var r int = len(s) - 1
     
-    for l < len(s) && l < r {
+    for l < r {
         if s[l] != s[r] {
             return false
         }
