@@ -7,7 +7,7 @@ func rev(n int) int {
 }
 
 func countNicePairs(nums []int) int {
-    m := make(map[int]int)
+    m := map[int]int{}
     mod := int(1e9 + 7)
     res := 0
     
